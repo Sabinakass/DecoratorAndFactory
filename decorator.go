@@ -39,6 +39,5 @@ func main() {
 	coffeeWithMilk := &MilkDecorator{Coffee: coffee}
 	coffeeWithMilkAndSyrup := &SyrupDecorator{Coffee: coffeeWithMilk}
 
-	// Calculate and print the cost of the decorated coffee
 	fmt.Printf("Cost of decorated coffee: %.2f KZT", coffeeWithMilkAndSyrup.Cost())
 }
